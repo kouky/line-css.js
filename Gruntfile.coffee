@@ -9,7 +9,7 @@ module.exports = (grunt) ->
 
     uglify:
       options:
-        banner: '/*! <%= pkg.name %> <%= grunt.template.today("yyyy-mm-dd") %> */\n'
+        banner: '/*! <%= pkg.name %> <%= grunt.template.today("yyyy-mm-dd") %> v<%= pkg.version %> */\n'
       build:
         files:
           'build/<%= pkg.name %>.min.js': 'build/<%= pkg.name %>.js'
