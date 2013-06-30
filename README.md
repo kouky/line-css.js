@@ -4,6 +4,8 @@ Draw arbitrary lines in 2D space with CSS.
 
 A small JavaScript library that computes the CSS styles required to render a line of any stroke width between two arbitrary points.
 
+See a [working example](http://jsfiddle.net/kouky/jHWHz/embedded/result/) on JSFiddle.
+
 ## Usage
 
 One single API method is provided which takes three arguments.
